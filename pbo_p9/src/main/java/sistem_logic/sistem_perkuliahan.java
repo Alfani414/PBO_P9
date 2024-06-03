@@ -24,6 +24,10 @@ public class sistem_perkuliahan {
         this.data_mahasiswa = data_mahasiswa;
         this.data_staff = data_staff;
     }
+
+    public sistem_perkuliahan(mahasiswa[] data_mahasiswa) {
+        this.data_mahasiswa = data_mahasiswa;
+    }
     
     
 }
